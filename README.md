@@ -26,6 +26,8 @@ The project uses a publicly available dataset:
 
 - **FakeAVCeleb**: It comprises manipulations in both the audio and video modalities. The dataset is geographically and racially diverse while maintaining gender equality. It is divided into four groups - FakeVideo-FakeAudio (FVFA), RealVideo-FakeAudio (RVFA), FakeVideo-RealAudio (FVRA) and RealVideo-RealAudio (RVRA).It consists of 500 real videos and 19,500 fake videos collected from 500 different subjects.
 
+Download it from - https://github.com/DASH-Lab/FakeAVCeleb
+
 ## Methodology
 
 The proposed architecture consists of three networks viz. - video, audio, and audiovisual. Each branch of the system analyses a part of the input video to produce a classification.
