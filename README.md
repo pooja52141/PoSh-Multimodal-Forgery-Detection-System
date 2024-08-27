@@ -29,7 +29,9 @@ The project uses a publicly available dataset:
 The proposed architecture consists of three networks viz. - video, audio, and audiovisual. Each branch of the system analyses a part of the input video to produce a classification.
 True is produced in the event of the input being Fake and False if it is Not Fake. Finally, the classification results of all three branches are combined using an OR operation. Importantly, the network in which forgery has occurred, whether it be in the audio-only, video-only, or in both modalities, will also be explicitly identified in the output. 
 
-![Proposed Architecture](data/image.jpeg)  
+<p align="center" width="100%">
+    <img width="50%" src="data/image.jpeg">
+</p>
 
 The audio branch of the network analyses the audio part, and the video frames are analysed by the video branch. The audio-visual network focuses on synchronising the speech with the lip movement. A completely unaltered audio will be detected as not fake by the audio network, and an unforged video will be classified as not fake by the video network. The audio-visual network is required to detect a combination of an unmodified unrelated audio with an inviolate video.
 
