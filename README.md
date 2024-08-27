@@ -1,6 +1,6 @@
 # PoSh - A Multimodal Forgery Detection System
 
-![Demo Video](data/demo.mp4)  
+![Demo Video](data/demo.gif)  
 
 ## Table of Contents
 
